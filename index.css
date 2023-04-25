@@ -1,0 +1,77 @@
+body {
+    max-width: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.menu.div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logovov {
+    vertical-align: middle;
+}
+.menu link {
+    list-style: none;
+    display: flex;
+    grid-template-columns: 25% 25% 25% 25%; 
+    padding-top: 10px;    
+}
+.link {
+    padding-left: 72px;
+}
+.link li {
+    padding: 0 20px 0 20px;
+    margin-top: 0;
+    display: inline;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.logovov {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.text {
+    position: absolute;
+    top: 0px;
+    color: white;
+    padding-left: 250px;
+    text-align: center;
+}
+.relative {
+    position: relative;
+}
+.relative img {
+    width: 100%;
+}
+.img { 
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.img img {
+    margin: 5px 0px;
+    width: 95%;
+    border-radius: 10px;
+}
+.img5 {
+    width: 345px;
+}
+.cottrai {
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+.cottrai {
+    padding-left: 20px;
+}
+.cotphai {
+    padding-left: 20px;
+}
