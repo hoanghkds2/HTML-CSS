@@ -1,77 +1,96 @@
 body {
-    max-width: 1000px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1300px;
+  margin:auto;
 }
-.menu {
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 0;
+  margin: 0 auto;
+}
+nav div {
+  display: inline-block;
+}
+nav {
+  display: grid;
+  grid-template-columns: 55% auto;
+} 
+nav.right {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto auto auto;
 }
-.menu.div {
-    margin-top: auto;
-    margin-bottom: auto;
+a {
+    max-width: 100%;
+    text-decoration: none;
+    font-size: 15px;
+    margin: auto;
 }
-.logovov {
-    vertical-align: middle;
-}
-.menu link {
-    list-style: none;
-    display: flex;
-    grid-template-columns: 25% 25% 25% 25%; 
-    padding-top: 10px;    
-}
-.link {
-    padding-left: 72px;
-}
-.link li {
-    padding: 0 20px 0 20px;
-    margin-top: 0;
-    display: inline;
-    justify-content: space-between;
-    vertical-align: middle;
-}
-.logovov {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
-}
-.text {
-    position: absolute;
-    top: 0px;
-    color: white;
-    padding-left: 250px;
-    text-align: center;
-}
-.relative {
-    position: relative;
-}
-.relative img {
-    width: 100%;
-}
-.img { 
+footer .thongtin {
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-columns: 66% 34%;
     margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    float:right;
 }
-.img img {
-    margin: 5px 0px;
-    width: 95%;
+footer div {
+    width: 90%;
+}
+
+.row img {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+    margin-top: 13px;
     border-radius: 10px;
+    margin-top: auto;
+    margin-right: auto;
+  }  
+.row div {
+    padding-right: 15px;
 }
-.img5 {
-    width: 345px;
+  /* For mobile phones: */
+.navbar-brand {
+  float: left;
 }
-.cottrai {
-    display: grid;
-    grid-template-columns: 65% 35%;
+.textbanner {
+    top: 0px;
+    left: 5%;
+    color: #daf6ff;
 }
-.cottrai {
-    padding-left: 20px;
+.textbanner h1{
+    font-size: 24px;
 }
-.cotphai {
-    padding-left: 20px;
+.textbanner p {
+    top: 30px;
+    left: 0px;
+    font-size: 13px;
+}  
+.col-12 col-lg-4 px-0 {
+  padding-left: auto;
+}
+@media only screen and (min-width: 768px) {
+  
+    /* For tablets: */
+.textbanner {
+      top: 0px;
+      left: 16%;
+    }
+.textbanner h1{
+      font-size: 2.0em;
+    }
+  
+.textbanner p {
+      top: 40px;
+      left: 25px;
+      font-size: 1em;
+    }
+}
+  
+@media only screen and (min-width: 987px) {
+  
+/* For desktop: */
+  
+  .textbanner {
+    left: 25%;
+  }
 }
