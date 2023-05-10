@@ -1,48 +1,26 @@
 body {
-    max-width: 1000px;
+    max-width: 1300px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
 }
-.menu {
-    display: grid;
-    grid-template-columns: 50% 50%;
+.container-fluid img {
+    width: 60px;
 }
-.menu.div {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.logovov {
-    vertical-align: middle;
-}
-.menu link {
-    list-style: none;
-    display: flex;
-    grid-template-columns: 25% 25% 25% 25%; 
-    padding-top: 10px;    
-}
-.link {
-    padding-left: 72px;
-}
-.link li {
-    padding: 0 20px 0 20px;
-    margin-top: 0;
-    display: inline;
-    justify-content: space-between;
-    vertical-align: middle;
-}
-.logovov {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
+.navbar-nav img {
+    width: 70px;
 }
 .text {
     position: absolute;
     top: 0px;
-    color: white;
-    padding-left: 250px;
+    color: aliceblue;
+    padding-left: 12px;
+    font-size: small;
     text-align: center;
+}
+.tieude {
+    font-size: 0.5cm;
 }
 .relative {
     position: relative;
@@ -50,28 +28,48 @@ body {
 .relative img {
     width: 100%;
 }
-.img { 
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    margin-left: auto;
-    margin-right: auto;
+.content img {
     width: 100%;
+    margin-bottom: 10px !important;
+    /* border-radius: 5px; */
 }
-.img img {
-    margin: 5px 0px;
-    width: 95%;
-    border-radius: 10px;
+.ttin {
+    font-size: x-large;
 }
-.img5 {
-    width: 345px;
+@media only screen and (min-width: 687px) {
+    /*tablets*/
+    .text {
+        padding-left: 100px;
+        font-size: 0.5cm !important;
+    }
+    .tieude {
+        font-size: 0.8cm;
+    }
+    .navbar-collapse {
+        margin-left: 280px;
+    }
 }
-.cottrai {
-    display: grid;
-    grid-template-columns: 65% 35%;
-}
-.cottrai {
-    padding-left: 20px;
-}
-.cotphai {
-    padding-left: 20px;
+
+@media only screen and (min-width: 987px) {
+    /*desktop*/
+    .text {
+        font-size: 2cm;
+        padding-left: 320px;
+    }
+    .ttin {
+        font-size: 0.8cm;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 68% 32%;
+    }
+    .image img {
+        margin: 0px 0px;
+    }
+    .image5 {
+        width: 365px;
+    }
+    .navbar-collapse {
+        margin-left: 700px;
+    }
 }
