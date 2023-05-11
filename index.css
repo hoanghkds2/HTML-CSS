@@ -26,16 +26,12 @@ a {
     font-size: 15px;
     margin: auto;
 }
-footer .thongtin {
+.thongtin {
     display: grid;
-    grid-template-columns: 66% 34%;
-    margin-left: auto;
-    float:right;
 }
-footer div {
-    width: 90%;
+.thongtin h3 {
+  font-size: 18px;
 }
-
 .row img {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -45,12 +41,10 @@ footer div {
     margin-top: auto;
     margin-right: auto;
   }  
-.row div {
-    padding-right: 15px;
-}
+
   /* For mobile phones: */
 .navbar-brand {
-  float: left;
+    padding-left: 0px;
 }
 .textbanner {
     top: 0px;
@@ -65,9 +59,6 @@ footer div {
     left: 0px;
     font-size: 13px;
 }  
-.col-12 col-lg-4 px-0 {
-  padding-left: auto;
-}
 @media only screen and (min-width: 768px) {
   
     /* For tablets: */
@@ -78,14 +69,12 @@ footer div {
 .textbanner h1{
       font-size: 2.0em;
     }
-  
 .textbanner p {
       top: 40px;
       left: 25px;
-      font-size: 1em;
+      font-size: 16px;
     }
 }
-  
 @media only screen and (min-width: 987px) {
   
 /* For desktop: */
